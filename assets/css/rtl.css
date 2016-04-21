@@ -1,0 +1,43 @@
+/* colour references
+		red :        d04432
+		light gray : e6e6e6
+
+*/
+
+/* general */
+@import url(bootstrap.min.rtl.css);
+
+
+.navbar-nav {
+	float: left;
+}
+/*============= slider ========*/
+#main-slider {
+	direction: ltr;
+}
+.slide-text {
+	direction: rtl;
+}
+
+/*========== about =============*/
+.text-icons {
+	padding-right: 20px;
+	padding-left: 0;
+}
+.icons-hr {
+	float: right;
+}
+
+
+#content li::before {
+	font-family: FontAwesome;
+  content: "\f137";
+  float: right;
+  color: #d04432;
+  width: 1.6em;
+}
+
+/*============ photo slider ==========*/
+.owl-carousel-1 {
+	direction: ltr;
+}
